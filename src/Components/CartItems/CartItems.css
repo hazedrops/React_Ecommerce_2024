@@ -1,0 +1,45 @@
+.cartitems {
+  margin: 6em 10em;
+}
+
+.cartitems hr {
+  height: .3em;
+  background: #e2e2e2;
+  border: 0;
+}
+
+.cartitems-format-main {
+  display: grid;
+  grid-template-columns: .5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 2em;
+  padding: 1.2em .5em;
+  color: #454545;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.cartitems-format {
+  font-size: 1em;
+  font-weight: 500;
+  justify-items: center;
+}
+
+.cartitem-product-icon {
+  height: 5em;
+  margin-left: .7em;
+}
+
+.cartitems-remove-icon {
+  width: 1em;
+  margin: 0 2em;
+  cursor: pointer;
+}
+
+.cartitems-quantity {
+  width: 4em;
+  height: 3em;
+  border: 2px solid #ebebeb;
+  background: #fff;
+}
